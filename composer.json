@@ -1,0 +1,21 @@
+{
+    "name": "rodrigorigotti/api-olho-vivo",
+    "description": "Aplicação PHP para acessar a API do Olho Vivo",
+    "keywords": ["olhovivo", "sptrans", "api", "rest"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Rodrigo Rigotti Mammano",
+            "email": "r.mammano@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzle/guzzle": "dev-master",
+        "phpunit/phpunit": "3.7.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "RodrigoRigotti": "src/"
+        }
+    }    
+}
